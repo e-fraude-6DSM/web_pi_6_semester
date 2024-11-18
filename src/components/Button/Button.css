@@ -1,0 +1,17 @@
+.button {
+    height: 40px;
+    background-color: #1e1e1e;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #FAF9F6;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:disabled {
+    background-color: #4A4A4A;
+  }

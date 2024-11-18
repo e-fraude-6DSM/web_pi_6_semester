@@ -1,0 +1,35 @@
+
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block; 
+    text-align: left;
+  }
+  
+  .input {
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    margin-bottom: 16px;
+    padding: 0 10px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .button {
+    height: 40px;
+    background-color: #1e1e1e;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #FAF9F6;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:disabled {
+    background-color: #4A4A4A;
+  }

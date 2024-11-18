@@ -1,0 +1,20 @@
+.botao-quadrado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px; 
+  height: 150px;
+  background-color: #0F303E;
+  color: #FAF9F6;
+  font-size: 16px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.botao-quadrado:hover {
+  background-color: #08242f;
+}

@@ -1,0 +1,18 @@
+
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block; 
+    text-align: left;
+  }
+  
+  .input {
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    margin-bottom: 16px;
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  

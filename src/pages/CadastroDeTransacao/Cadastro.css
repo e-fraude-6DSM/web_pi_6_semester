@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .cadastro {
+    margin: 40px;
+    height: 100%;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .cadastro-transacao {
+    margin: 40px;
+  }
+
+  
+  .cadastro-transacao label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  .cadastro-transacao input {
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .cadastro-transacao select {
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .cadastro-transacao button {
+    height: 40px;
+    background-color: #1e1e1e;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #FAF9F6;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .cadastro-transacao button:disabled {
+    background-color: #4A4A4A;
+  }

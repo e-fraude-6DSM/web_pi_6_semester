@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<br id="topo">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="#como_comecar">Como começar</a>  |
+    <a href="#sobre">Sobre</a>  |
+    <a href="#funcionalidades">Funcionalidades</a>  |
+    <a href="#equipe">Equipe</a>
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+# É Fraude? 
 
-### `npm start`
+<span id="como_comecar">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Começar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para começar a desenvolver com o projeto, siga estas etapas:
 
-### `npm test`
+1. Clone o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/rafaelchioca/web_pi_6_semester.git
+    ```
 
-### `npm run build`
+2.  Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Execute o aplicativo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+<span id="sobre">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Sobre
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este é o projeto interdisciplinar do 6º semestre do curso de Desenvolvimento de Software Multiplataforma da Fatec Franca.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Consiste em uma aplicação React para facilitar a detecção de fraudes em transações de cartão de crédito. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A aplicação permite aos usuários cadastrar novas transações e analisar transações existentes, utilizando técnicas de análise de dados e aprendizado de máquina para identificar possíveis atividades fraudulentas.
 
-## Learn More
+<span id="funcionalidades">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Funcionalidades
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Análise de Transações:** Permite aos usuários analisar transações existentes para detectar fraudes com base em um modelo de aprendizado de máquina.
+- **Cadastro de Transações:** Os usuários podem cadastrar novas transações fornecendo detalhes como categoria, valor, gênero, localização, entre outros.
+- **Interface Intuitiva:** A interface foi projetada para facilitar o uso por profissionais e usuários não técnicos, oferecendo uma experiência de navegação simples e eficiente.
+- **Autenticação de Usuário:** O sistema conta com uma funcionalidade de login e logout para garantir a segurança e o controle de acesso aos dados sensíveis.
 
-### Code Splitting
+<span id="equipe">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Equipe
+    
+| Nome                    | LinkedIn & GitHub |
+| :-----------------------| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
+| Gabriel Vinicius Pagnan    | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-pagnan00/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Gabriel-pagnan) |    
+| Leonardo Alves Costa    | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/leonardoalvescosta) |     
+| Rafael Malaquias Chioca | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelchioca/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelchioca) |
+    

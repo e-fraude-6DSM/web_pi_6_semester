@@ -42,7 +42,7 @@ Este é o projeto interdisciplinar do 6º semestre do curso de Desenvolvimento d
 
 Consiste em uma aplicação React para facilitar a detecção de fraudes em transações de cartão de crédito. 
 
-A aplicação permite aos usuários cadastrar novas transações e analisar transações existentes, utilizando técnicas de análise de dados e aprendizado de máquina para identificar possíveis atividades fraudulentas.
+A aplicação permite aos usuários cadastrar novas transações e analisar transações existentes, utilizando técnicas de análise de dados e aprendizado de máquina para identificar possíveis atividades fraudulentas. Além disso, o sistema conta com um chatbot integrado para auxiliar os usuários.
 
 <span id="funcionalidades">
 
@@ -50,6 +50,7 @@ A aplicação permite aos usuários cadastrar novas transações e analisar tran
 
 - **Análise de Transações:** Permite aos usuários analisar transações existentes para detectar fraudes com base em um modelo de aprendizado de máquina.
 - **Cadastro de Transações:** Os usuários podem cadastrar novas transações fornecendo detalhes como categoria, valor, gênero, localização, entre outros.
+- **Chatbot:** O chatbot integrado oferece dicas de segurança online para os usuários.
 - **Interface Intuitiva:** A interface foi projetada para facilitar o uso por profissionais e usuários não técnicos, oferecendo uma experiência de navegação simples e eficiente.
 - **Autenticação de Usuário:** O sistema conta com uma funcionalidade de login e logout para garantir a segurança e o controle de acesso aos dados sensíveis.
 

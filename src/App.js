@@ -6,6 +6,7 @@ import Analise from './pages/AnaliseDeTransacao';
 import Cadastro from './pages/CadastroDeTransacao';
 import Sidebar from './components/Sidebar';
 import Detalhe from './pages/DetalhesDeTransacao';
+import Chatbot from './pages/Chatbot';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './contexts/AuthUserContext';
 
@@ -19,6 +20,7 @@ const ProtectedLayout = () => {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/analise" element={<Analise />} />
           <Route path="/detalhe/:id" element={<Detalhe />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </div>
     </div>

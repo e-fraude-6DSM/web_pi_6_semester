@@ -22,7 +22,8 @@ class ApiService {
     try {
       const response = await this.api.post(url, { email, password });
       if (response && response.data) {
-        localStorage.setItem('authToken', response.data.access_token); 
+        localStorage.setItem('authToken', response.data.access_token);
+        localStorage.setItem('name', response.data.user.name); 
         return response.data;
       } else {
         throw new Error('Falha ao realizar login');

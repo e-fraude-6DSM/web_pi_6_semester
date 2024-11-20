@@ -39,6 +39,17 @@ const Login = () => {
     }
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        if (e.target.id === "email") {
+            document.getElementById("password").focus();
+        } else {
+            handleLogin();
+        }
+    }
+};
+
   return (
     <div className="container">
       <div className="logo">
@@ -55,6 +66,7 @@ const Login = () => {
         placeholder="Digite seu e-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        onKeyUp={handleKeyPress}
       />
       <label className="label" htmlFor="password">
         Senha
@@ -66,6 +78,7 @@ const Login = () => {
         placeholder="Digite sua senha"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
+        onKeyUp={handleKeyPress}
       />
       {message && (
         <div

@@ -26,6 +26,7 @@ const Sidebar = () => {
           transação</a></li>
           <li><a href="/cadastro">Cadastro de 
           transação</a></li>
+          <li><a href="/chatbot">Chatbot</a></li>
         </ul>
       </nav>
 

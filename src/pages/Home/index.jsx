@@ -9,6 +9,7 @@ const Home = () => {
       <div className='items'>
         <Item title="Análise de Transação" to="/analise" />
         <Item title="Cadastro de Transação" to="/cadastro" />
+        <Item title="ChatBot" to="/chatbot" />
       </div>
     </div>    
   );

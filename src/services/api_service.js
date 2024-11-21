@@ -81,6 +81,7 @@ class ApiService {
 
   logout() {
     localStorage.removeItem('authToken');
+    localStorage.removeItem('name');
   }
 
   isAuthenticated() {

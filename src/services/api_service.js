@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class ApiService {
   constructor() {
-    this.baseUrl = 'http://localhost:8000'; // URL da API
+    this.baseUrl = 'https://pi-6-semester.onrender.com/'; // URL da API
     this.api = axios.create({
       baseURL: this.baseUrl,
     });

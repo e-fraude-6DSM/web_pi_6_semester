@@ -17,7 +17,7 @@ const Analise = () => {
         const response = await apiService.listInputs();
         setTransactions(response);
       } catch (error) {
-        toast.error(`Erro ao carregar transações: ${error.message}`);
+        toast.error('Erro ao buscar transações.');
       }
     };
 
@@ -40,7 +40,7 @@ const Analise = () => {
         toast.error('Transação não encontrada.');
       }
     } catch (error) {
-      toast.error(`Erro ao buscar transação: ${error.message}`);
+      toast.error('Erro ao buscar transação.');
     }
   };
 

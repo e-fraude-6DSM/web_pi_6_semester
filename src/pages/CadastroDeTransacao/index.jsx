@@ -69,7 +69,7 @@ const Cadastro = () => {
         unix_time: ""
       });
     } catch (error) {
-      toast.error(`Erro ao cadastrar transação: ${error.message}`);
+      toast.error(`Erro ao cadastrar transação.`);
     }
   };
 
